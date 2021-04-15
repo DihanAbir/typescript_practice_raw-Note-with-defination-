@@ -41,3 +41,33 @@ var named = {
 // also not alow to manipulate default key value, you have to add all the value in object on referanced oobject 
 // here re-create new object of named object which is a new object on behalf referanced name object 
 // to manipulate this objenct you have a pass same key , and ot allow to add new key ot not remove any keyof, both will give you error 
+// explicit type 
+var car;
+var age;
+var isLoading;
+// age = 'dihan '  get arror  cz age is not a string!
+// so on
+// arrays
+var ninjas;
+var ninjasEmpty = []; //to initialize as a empty array
+// ninjas = ['dihan', 12] -> not all the value are string ; 
+ninjas = ['dihan', 'murad']; //->  all the value are string ; 
+// if we initialize with a empty array then we can push otherwisr will get error 
+ninjas.push("dihanabir");
+ninjasEmpty.push("dihanabir");
+// union types 
+// -> to add a mixed value on array then we can use unior 
+var mixed = [];
+mixed = ["dihan abir", 21, 'mirpur-14'];
+// random variable 
+var ran;
+// objects 
+var ranobj;
+ranobj = { name: 'dihan', age: 21 };
+// for future initialization
+var ranobh2;
+ranobh2 = {
+    name: "dihan abir",
+    age: 21,
+    isLoading: false
+};

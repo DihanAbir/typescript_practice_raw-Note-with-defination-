@@ -70,5 +70,63 @@ let named = {
     
 
 
+// explicit type 
+
+let car :string;
+let age: number;
+let isLoading: boolean;
+
+
+// age = 'dihan '  get arror  cz age is not a string!
+// so on
+
+
+// arrays
+
+let ninjas : string[];
+let ninjasEmpty : string[] = []; //to initialize as a empty array
+
+// ninjas = ['dihan', 12] -> not all the value are string ; 
+ninjas = ['dihan', 'murad'] //->  all the value are string ; 
+
+
+// if we initialize with a empty array then we can push otherwisr will get error 
+ninjas.push("dihanabir")
+ninjasEmpty.push("dihanabir")
+
+
+// union types 
+
+// -> to add a mixed value on array then we can use unior 
+
+let mixed : (string | number )[] = [];
+mixed = ["dihan abir", 21, 'mirpur-14']
+
+
+// random variable 
+
+let ran : string | number;
+
+// objects 
+
+let ranobj : object;
+ranobj = { name: 'dihan', age: 21 };
+
+// for future initialization
+let ranobh2 : {
+    name: string,
+    age: number,
+    isLoading: boolean,
+}
+
+ranobh2 = {
+    name: "dihan abir",
+    age: 21,
+    isLoading: false ,
+}
+
+
+
+
 
 
