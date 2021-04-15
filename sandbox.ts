@@ -12,6 +12,7 @@
 // github: /DihanAbir
 
 
+// basic starter to typescript to javascript 
 
 const character = 'dihan'
 
@@ -25,3 +26,11 @@ input.forEach(value => {
     console.log(value);
     
 })
+
+
+// object and arrays 
+ let names = ['dihan', 'abir', 'nahid'];
+
+
+
+

@@ -8,6 +8,7 @@
 // Name: Dihan Abir
 // Main Stack: JavaScript
 // github: /DihanAbir
+// basic starter to typescript to javascript 
 var character = 'dihan';
 console.log(character);
 var input = document.querySelectorAll('input');
@@ -16,3 +17,5 @@ console.log('ok');
 input.forEach(function (value) {
     console.log(value);
 });
+// object and arrays 
+var names = ['dihan', 'abir', 'nahid'];
