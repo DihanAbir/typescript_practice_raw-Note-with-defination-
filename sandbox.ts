@@ -127,6 +127,21 @@ ranobh2 = {
 
 
 
+// any type \\ or dynamic type
+let year: any  = 25;
+
+// array
+
+let mix: any[];
+mix.push("Dihanabir");
+
+// obj
+let anyobj : { name: any, age : any, year: any };
+anyobj = {name: "banglaesh", age : 'sadas', year: true};
+
+
+
+
 
 
 

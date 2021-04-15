@@ -71,3 +71,11 @@ ranobh2 = {
     age: 21,
     isLoading: false
 };
+// any type \\ or dynamic type
+var year = 25;
+// array
+var mix;
+mix.push("Dihanabir");
+// obj
+var anyobj;
+anyobj = { name: "banglaesh", age: 'sadas', year: true };
