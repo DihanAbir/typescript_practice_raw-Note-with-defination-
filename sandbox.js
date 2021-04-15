@@ -17,5 +17,27 @@ console.log('ok');
 input.forEach(function (value) {
     console.log(value);
 });
-// object and arrays 
+// arrays 
+// array should be plural nameing otherwise get errors;  
 var names = ['dihan', 'abir', 'nahid'];
+names.push("dihanabir");
+//  need to be same value type to push otherwise get error  
+// names.push(10);
+// push mixed valu type
+var mixNames = ['dihan', 21, true];
+mixNames.push(12);
+// object
+var named = {
+    name: "dihan",
+    age: 12,
+    address: "mirpur"
+};
+// not allow to add new item on main object manually 
+// named.dihan = "dihan abir";
+//  named = {
+//     name: "murag",
+//     age: 29,
+// }
+// also not alow to manipulate default key value, you have to add all the value in object on referanced oobject 
+// here re-create new object of named object which is a new object on behalf referanced name object 
+// to manipulate this objenct you have a pass same key , and ot allow to add new key ot not remove any keyof, both will give you error 
