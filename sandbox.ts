@@ -5,6 +5,12 @@
 // 3. if both ts file and js file same, then convert ts to js by typing this command: "tsc filenam.ts" 
 // 4. for auto start when press the save key without reload, use watch flag after all the necessary command: tsc sandbox.ts -w
 
+// -----------------******************-----------------
+// author description: 
+// Name: Dihan Abir
+// Main Stack: JavaScript
+// github: /DihanAbir
+
 
 
 const character = 'dihan'
