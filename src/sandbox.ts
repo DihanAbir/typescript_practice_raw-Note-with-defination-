@@ -151,7 +151,7 @@ demofun = () => {
     
 }
 
-const add = ( a:number, b:number, /* optional argument*/ c?:number|string ,  /* default argument*/ d?:number|string = 20   ) => {
+const add = ( a:number, b:number, /* optional argument*/ c?:number|string ,  /* default argument*/ d:number|string = 20   ) => {
     console.log(a+b);
     console.log(d);
 }
@@ -159,5 +159,34 @@ const add = ( a:number, b:number, /* optional argument*/ c?:number|string ,  /* 
 add(2,4, 4)
 
 
+// classes
 
+class invoice {
+    client :string;
+    details: string;
+    amount:number;
+    
+    constructor( c:string,d:string, a:number  ){
+        this.client = c;
+        this.details = d;
+        this.amount = a;
+    }
+
+    formate(){
+        return  `${this.client} owes $${this.amount} for ${this.details}`;
+    }
+
+}
+
+
+const invoiceOne = new invoice("dihan", "for make a website", 1500);
+console.log(invoiceOne);
+const invoiceTwo = new invoice("abir", "for make a application", 3700);
+console.log(invoiceTwo);
+
+const invoices: invoice[] = []
+
+invoices.push(invoiceOne)
+invoices.push(invoiceTwo)
+console.log(invoices);
 

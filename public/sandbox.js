@@ -91,3 +91,23 @@ var add = function (a, b, /* optional argument*/ c, /* default argument*/ d) {
     console.log(d);
 };
 add(2, 4, 4);
+// classes
+var invoice = /** @class */ (function () {
+    function invoice(c, d, a) {
+        this.client = c;
+        this.details = d;
+        this.amount = a;
+    }
+    invoice.prototype.formate = function () {
+        return this.client + " owes $" + this.amount + " for " + this.details;
+    };
+    return invoice;
+}());
+var invoiceOne = new invoice("dihan", "for make a website", 1500);
+console.log(invoiceOne);
+var invoiceTwo = new invoice("abir", "for make a application", 3700);
+console.log(invoiceTwo);
+var invoices = [];
+invoices.push(invoiceOne);
+invoices.push(invoiceTwo);
+console.log(invoices);
