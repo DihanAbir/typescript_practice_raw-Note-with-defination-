@@ -110,7 +110,7 @@ let ran : string | number;
 // objects 
 
 let ranobj : object;
-ranobj = { name: 'dihan', age: 21 };
+ranobj = { name: 'dihana', age: 21 };
 
 // for future initialization
 let ranobh2 : {

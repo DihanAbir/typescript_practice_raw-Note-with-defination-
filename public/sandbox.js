@@ -64,7 +64,7 @@ mixed = ["dihan abir", 21, 'mirpur-14'];
 var ran;
 // objects 
 var ranobj;
-ranobj = { name: 'dihan', age: 21 };
+ranobj = { name: 'dihana', age: 21 };
 // for future initialization
 var ranobh2;
 ranobh2 = {
