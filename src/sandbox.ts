@@ -141,6 +141,22 @@ anyobj = {name: "banglaesh", age : 'sadas', year: true};
 
 
 
+// function typed in ts 
+
+
+let demofun : Function;
+
+demofun = () => {
+    console.log("this is a demo function!");
+    
+}
+
+const add = ( a:number, b:number, /* optional argument*/ c?:number|string ,  /* default argument*/ d?:number|string = 20   ) => {
+    console.log(a+b);
+    console.log(d);
+}
+
+add(2,4, 4)
 
 
 

@@ -80,3 +80,14 @@ var mix;
 // obj
 var anyobj;
 anyobj = { name: "banglaesh", age: 'sadas', year: true };
+// function typed in ts 
+var demofun;
+demofun = function () {
+    console.log("this is a demo function!");
+};
+var add = function (a, b, /* optional argument*/ c, /* default argument*/ d) {
+    if (d === void 0) { d = 20; }
+    console.log(a + b);
+    console.log(d);
+};
+add(2, 4, 4);
